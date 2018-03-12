@@ -53,8 +53,8 @@ publishing {
 }
 
 bintray {
-    user = 'bradley101'
-    key = '342db8533dba32e2f2030020acbaaad1eb3643b5'
+    user = System.getEnv('user');
+    key = System.getEnv('key');
     publications = ['Differentiate']
     pkg {
         repo = 'maven'
