@@ -44,7 +44,7 @@ public class Differentiate {
         return chunkList;
     }
 
-    public File getIntegratedfile(List<File> fileChunkList, File finalFile) {
+    public static File getIntegratedfile(List<File> fileChunkList, File finalFile) {
         File outputfile = new File(finalFile.getParent(), finalFile.getName());
         try(FileOutputStream fileOutputStream = new FileOutputStream(outputfile);
             BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);) {
@@ -90,16 +90,5 @@ public class Differentiate {
             return null;
         }
         return list;
-    }
-
-    public static void main(String[] args) {
-
-        File f = new File(System.getProperty("user.home")+"/Desktop", "video.mp4");
-
-        Differentiate differentiate = new Differentiate(f, 2 * 1024 * 1024);
-
-        System.out.println(differentiate.getNthFileChunk(1));
-
-        //System.out.println(differentiate.getIntegratedfile(differentiate.getDifferentiatedChunks(), new File(f.getParent(), "newvideo.mp4")));
     }
 }
