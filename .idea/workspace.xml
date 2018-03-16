@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b88c8f-9bc3-4aa4-857e-9882a1c915a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/com/bradley101/Differentiate.class" afterPath="$PROJECT_DIR$/build/classes/main/com/bradley101/Differentiate.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Differentiate-1.4-dev.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/libs/differentiate-1.4-sources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/publications/Differentiate/pom-default.xml" afterPath="$PROJECT_DIR$/build/publications/Differentiate/pom-default.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/bradley101/Differentiate.java" afterPath="$PROJECT_DIR$/src/main/java/com/bradley101/Differentiate.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -251,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521201761917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update static xml notations">
+      <created>1521202153759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521202153759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
